@@ -10,14 +10,12 @@
 		040938552175AAB83DB3E69D /* Pods_DojoSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0719C7612C981EDF305C1DB7 /* Pods_DojoSwiftTests.framework */; };
 		DC38EB5B1EC34C4A001E0C05 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB5A1EC34C4A001E0C05 /* Constants.swift */; };
 		DC38EB5D1EC34C68001E0C05 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB5C1EC34C68001E0C05 /* Enviroment.swift */; };
-		DC38EB7C1EC364F1001E0C05 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB6F1EC364F1001E0C05 /* GameRouter.swift */; };
 		DC38EB7D1EC364F1001E0C05 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB711EC364F1001E0C05 /* GameViewController.swift */; };
-		DC38EB7E1EC364F1001E0C05 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB721EC364F1001E0C05 /* GenericViewController.swift */; };
-		DC38EB7F1EC364F1001E0C05 /* GameDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB741EC364F1001E0C05 /* GameDAO.swift */; };
-		DC38EB801EC364F1001E0C05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB761EC364F1001E0C05 /* NetworkManager.swift */; };
 		DC38EB811EC364F1001E0C05 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB781EC364F1001E0C05 /* Game.swift */; };
-		DC38EB821EC364F1001E0C05 /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB791EC364F1001E0C05 /* GameResponse.swift */; };
 		DC38EB831EC364F1001E0C05 /* GameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB7B1EC364F1001E0C05 /* GameRepository.swift */; };
+		DC38EB861EC36A44001E0C05 /* GamesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB851EC36A44001E0C05 /* GamesProvider.swift */; };
+		DC38EB881EC36D9F001E0C05 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC38EB871EC36D9F001E0C05 /* Alamofire.framework */; };
+		DC38EB8B1EC37651001E0C05 /* ObjectMapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC38EB8A1EC37651001E0C05 /* ObjectMapper.framework */; };
 		DCBB59D61EC347CC002F9627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB59D51EC347CC002F9627 /* AppDelegate.swift */; };
 		DCBB59DB1EC347CC002F9627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBB59D91EC347CC002F9627 /* Main.storyboard */; };
 		DCBB59DD1EC347CC002F9627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBB59DC1EC347CC002F9627 /* Assets.xcassets */; };
@@ -45,14 +43,12 @@
 		C5FC647DC5202F58AADD41D5 /* Pods-DojoSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DojoSwiftTests/Pods-DojoSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DC38EB5A1EC34C4A001E0C05 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DC38EB5C1EC34C68001E0C05 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
-		DC38EB6F1EC364F1001E0C05 /* GameRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRouter.swift; sourceTree = "<group>"; };
 		DC38EB711EC364F1001E0C05 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
-		DC38EB721EC364F1001E0C05 /* GenericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
-		DC38EB741EC364F1001E0C05 /* GameDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDAO.swift; sourceTree = "<group>"; };
-		DC38EB761EC364F1001E0C05 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		DC38EB781EC364F1001E0C05 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		DC38EB791EC364F1001E0C05 /* GameResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
 		DC38EB7B1EC364F1001E0C05 /* GameRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRepository.swift; sourceTree = "<group>"; };
+		DC38EB851EC36A44001E0C05 /* GamesProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesProvider.swift; sourceTree = "<group>"; };
+		DC38EB871EC36D9F001E0C05 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		DC38EB8A1EC37651001E0C05 /* ObjectMapper.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ObjectMapper.framework; path = Carthage/Build/iOS/ObjectMapper.framework; sourceTree = "<group>"; };
 		DCBB59D21EC347CC002F9627 /* DojoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DojoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBB59D51EC347CC002F9627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCBB59DA1EC347CC002F9627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -69,6 +65,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC38EB8B1EC37651001E0C05 /* ObjectMapper.framework in Frameworks */,
+				DC38EB881EC36D9F001E0C05 /* Alamofire.framework in Frameworks */,
 				E7D591E51AA2C5FE1DA69369 /* Pods_DojoSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +96,8 @@
 		226E9E25A8C251EF0FF19BFD /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DC38EB8A1EC37651001E0C05 /* ObjectMapper.framework */,
+				DC38EB871EC36D9F001E0C05 /* Alamofire.framework */,
 				26C07EE9744D736C5D1C4CC4 /* Pods_DojoSwift.framework */,
 				0719C7612C981EDF305C1DB7 /* Pods_DojoSwiftTests.framework */,
 			);
@@ -119,7 +119,7 @@
 		DC38EB6E1EC364F1001E0C05 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				DC38EB6F1EC364F1001E0C05 /* GameRouter.swift */,
+				DC38EB851EC36A44001E0C05 /* GamesProvider.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -128,7 +128,6 @@
 			isa = PBXGroup;
 			children = (
 				DC38EB711EC364F1001E0C05 /* GameViewController.swift */,
-				DC38EB721EC364F1001E0C05 /* GenericViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -136,7 +135,6 @@
 		DC38EB731EC364F1001E0C05 /* DAO */ = {
 			isa = PBXGroup;
 			children = (
-				DC38EB741EC364F1001E0C05 /* GameDAO.swift */,
 			);
 			path = DAO;
 			sourceTree = "<group>";
@@ -144,7 +142,6 @@
 		DC38EB751EC364F1001E0C05 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				DC38EB761EC364F1001E0C05 /* NetworkManager.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -153,7 +150,6 @@
 			isa = PBXGroup;
 			children = (
 				DC38EB781EC364F1001E0C05 /* Game.swift */,
-				DC38EB791EC364F1001E0C05 /* GameResponse.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -224,6 +220,7 @@
 				DCBB59D01EC347CC002F9627 /* Resources */,
 				D09D34AB90226D8BA351FC02 /* [CP] Embed Pods Frameworks */,
 				E046C92B3231995BEA304ED6 /* [CP] Copy Pods Resources */,
+				DC38EB891EC36DE7001E0C05 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -391,6 +388,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DojoSwift/Pods-DojoSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		DC38EB891EC36DE7001E0C05 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Chartage.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
 		E046C92B3231995BEA304ED6 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,16 +425,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC38EB7E1EC364F1001E0C05 /* GenericViewController.swift in Sources */,
 				DC38EB811EC364F1001E0C05 /* Game.swift in Sources */,
 				DC38EB7D1EC364F1001E0C05 /* GameViewController.swift in Sources */,
+				DC38EB861EC36A44001E0C05 /* GamesProvider.swift in Sources */,
 				DC38EB5D1EC34C68001E0C05 /* Enviroment.swift in Sources */,
 				DCBB59D61EC347CC002F9627 /* AppDelegate.swift in Sources */,
 				DC38EB831EC364F1001E0C05 /* GameRepository.swift in Sources */,
-				DC38EB801EC364F1001E0C05 /* NetworkManager.swift in Sources */,
-				DC38EB7F1EC364F1001E0C05 /* GameDAO.swift in Sources */,
-				DC38EB7C1EC364F1001E0C05 /* GameRouter.swift in Sources */,
-				DC38EB821EC364F1001E0C05 /* GameResponse.swift in Sources */,
 				DC38EB5B1EC34C4A001E0C05 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -565,6 +573,10 @@
 			baseConfigurationReference = 051B8E944698436A7A2A6744 /* Pods-DojoSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DojoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.DojoSwift;
@@ -578,6 +590,10 @@
 			baseConfigurationReference = 189AD244E1CA069F27A1783C /* Pods-DojoSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = DojoSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ciandt.DojoSwift;

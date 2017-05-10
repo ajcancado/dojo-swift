@@ -7,35 +7,7 @@
 //
 
 import UIKit
-import RealmSwift
 
-class GameRepository: Object {
-    
-    dynamic var name = ""
-    dynamic var box = ""
-    dynamic var logo = ""
-    
-    dynamic var viewers = 0
-    dynamic var channels = 0
-
-//    Specify properties to ignore (Realm won't persist these)
-    
-//    override static func ignoredProperties() -> [String] {
-//      return []
-//    }
-
-    func toGame() -> Game{
-        
-        let game = Game()
-        
-        game.name = self.name
-        game.box = self.box
-        game.logo = self.logo
-        game.viewers = self.viewers
-        game.channels = self.channels
-        
-        return game
-    }
-    
+class GameRepository {
 }
 

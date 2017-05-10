@@ -14,9 +14,9 @@ struct Constants {
         static var baseURL: String {
             switch Environment.current {
             case .Development:
-                return "https://api.twitch.tv/"
+                return "https://api.twitch.tv/kraken/games/top"
             case .Production:
-                return "https://api.twitch.tv/"
+                return "https://api.twitch.tv/kraken/games/top"
             }
         }
     }

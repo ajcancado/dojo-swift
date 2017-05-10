@@ -17,6 +17,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         UserDefaults.standard.register(defaults: [Constants.SessionKeys.environment: 0])
         
+        GamesProvider.getGames { (_:[Game]) in }
+        
         return true
     }
 

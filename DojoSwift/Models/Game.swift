@@ -11,58 +11,28 @@ import ObjectMapper
 
 class Game: Mappable {
     
-    var name: String!
-    var box: String!
-    var logo: String!
-    
-    var viewers: Int!
-    var channels: Int!
-    
-    init() {
-        
-    }
+    var username: String?
+    var age: Int?
+    var weight: Double!
+    var array: [AnyObject]?
+    var dictionary: [String : AnyObject] = [:]
+    var bestFriend: User?                       // Nested User object
+    var friends: [User]?                        // Array of Users
+    var birthday: Date?
     
     required init?(map: Map) {
-        
+    
     }
     
+    // Mappable
     func mapping(map: Map) {
-        
-        name                <- map["game.name"]
-        box                 <- map["game.box.template"]
-        logo                <- map["game.logo.template"]
-        viewers             <- map["viewers"]
-        channels            <- map["channels"]
-    }
-    
-    func getBoxWith(width: CGFloat, andHeight height: CGFloat) -> String{
-        
-        var boxEdited = box.replacingOccurrences(of: "{width}", with: "\(Int(width))")
-        boxEdited = boxEdited.replacingOccurrences(of: "{height}", with: "\(Int(height))")
-        
-        return boxEdited
-        
-    }
-    
-    func getLogoWith(width: CGFloat, andHeight height: CGFloat) -> String{
-        
-        var logoEdited = logo.replacingOccurrences(of: "{width}", with: "\(Int(width))")
-        logoEdited = logoEdited.replacingOccurrences(of: "{height}", with: "\(Int(height))")
-        
-        return logoEdited
-        
-    }
-    
-    func toGameRepository() -> GameRepository {
-        
-        let gameRepository = GameRepository()
-        
-        gameRepository.name = self.name
-        gameRepository.box = self.box
-        gameRepository.logo = self.logo
-        gameRepository.viewers = self.viewers
-        gameRepository.channels = self.channels
-        
-        return gameRepository
+    username    <- map["username"]
+    age         <- map["age"]
+    weight      <- map["weight"]
+    array       <- map["arr"]
+    dictionary  <- map["dict"]
+    bestFriend  <- map["best_friend"]
+    friends     <- map["friends"]
+    birthday    <- (map["birthday"], DateTransform())
     }
 }
