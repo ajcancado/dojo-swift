@@ -8,17 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		040938552175AAB83DB3E69D /* Pods_DojoSwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0719C7612C981EDF305C1DB7 /* Pods_DojoSwiftTests.framework */; };
-		DC38EB571EC34BDA001E0C05 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB561EC34BDA001E0C05 /* ViewController.swift */; };
-		DC38EB591EC34C15001E0C05 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB581EC34C15001E0C05 /* GameRouter.swift */; };
 		DC38EB5B1EC34C4A001E0C05 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB5A1EC34C4A001E0C05 /* Constants.swift */; };
 		DC38EB5D1EC34C68001E0C05 /* Enviroment.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB5C1EC34C68001E0C05 /* Enviroment.swift */; };
-		DC38EB611EC34F12001E0C05 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB601EC34F12001E0C05 /* DatabaseManager.swift */; };
-		DC38EB631EC350CF001E0C05 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB621EC350CF001E0C05 /* GenericViewController.swift */; };
-		DC38EB651EC3519B001E0C05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB641EC3519B001E0C05 /* NetworkManager.swift */; };
-		DC38EB671EC35408001E0C05 /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB661EC35408001E0C05 /* GameResponse.swift */; };
-		DC38EB691EC35434001E0C05 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB681EC35434001E0C05 /* Game.swift */; };
-		DC38EB6B1EC354EA001E0C05 /* GameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB6A1EC354EA001E0C05 /* GameRepository.swift */; };
-		DC38EB6D1EC35731001E0C05 /* GameDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB6C1EC35731001E0C05 /* GameDAO.swift */; };
+		DC38EB7C1EC364F1001E0C05 /* GameRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB6F1EC364F1001E0C05 /* GameRouter.swift */; };
+		DC38EB7D1EC364F1001E0C05 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB711EC364F1001E0C05 /* GameViewController.swift */; };
+		DC38EB7E1EC364F1001E0C05 /* GenericViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB721EC364F1001E0C05 /* GenericViewController.swift */; };
+		DC38EB7F1EC364F1001E0C05 /* GameDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB741EC364F1001E0C05 /* GameDAO.swift */; };
+		DC38EB801EC364F1001E0C05 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB761EC364F1001E0C05 /* NetworkManager.swift */; };
+		DC38EB811EC364F1001E0C05 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB781EC364F1001E0C05 /* Game.swift */; };
+		DC38EB821EC364F1001E0C05 /* GameResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB791EC364F1001E0C05 /* GameResponse.swift */; };
+		DC38EB831EC364F1001E0C05 /* GameRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38EB7B1EC364F1001E0C05 /* GameRepository.swift */; };
 		DCBB59D61EC347CC002F9627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCBB59D51EC347CC002F9627 /* AppDelegate.swift */; };
 		DCBB59DB1EC347CC002F9627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCBB59D91EC347CC002F9627 /* Main.storyboard */; };
 		DCBB59DD1EC347CC002F9627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCBB59DC1EC347CC002F9627 /* Assets.xcassets */; };
@@ -44,17 +43,16 @@
 		26C07EE9744D736C5D1C4CC4 /* Pods_DojoSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DojoSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2836F648FE12F2B50079D3ED /* Pods-DojoSwiftTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoSwiftTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DojoSwiftTests/Pods-DojoSwiftTests.release.xcconfig"; sourceTree = "<group>"; };
 		C5FC647DC5202F58AADD41D5 /* Pods-DojoSwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DojoSwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DojoSwiftTests/Pods-DojoSwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
-		DC38EB561EC34BDA001E0C05 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DC38EB581EC34C15001E0C05 /* GameRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRouter.swift; sourceTree = "<group>"; };
 		DC38EB5A1EC34C4A001E0C05 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		DC38EB5C1EC34C68001E0C05 /* Enviroment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enviroment.swift; sourceTree = "<group>"; };
-		DC38EB601EC34F12001E0C05 /* DatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
-		DC38EB621EC350CF001E0C05 /* GenericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
-		DC38EB641EC3519B001E0C05 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		DC38EB661EC35408001E0C05 /* GameResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameResponse.swift; path = DojoSwift/Models/GameResponse.swift; sourceTree = SOURCE_ROOT; };
-		DC38EB681EC35434001E0C05 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
-		DC38EB6A1EC354EA001E0C05 /* GameRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRepository.swift; sourceTree = "<group>"; };
-		DC38EB6C1EC35731001E0C05 /* GameDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDAO.swift; sourceTree = "<group>"; };
+		DC38EB6F1EC364F1001E0C05 /* GameRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRouter.swift; sourceTree = "<group>"; };
+		DC38EB711EC364F1001E0C05 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DC38EB721EC364F1001E0C05 /* GenericViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericViewController.swift; sourceTree = "<group>"; };
+		DC38EB741EC364F1001E0C05 /* GameDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameDAO.swift; sourceTree = "<group>"; };
+		DC38EB761EC364F1001E0C05 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		DC38EB781EC364F1001E0C05 /* Game.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		DC38EB791EC364F1001E0C05 /* GameResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameResponse.swift; sourceTree = "<group>"; };
+		DC38EB7B1EC364F1001E0C05 /* GameRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameRepository.swift; sourceTree = "<group>"; };
 		DCBB59D21EC347CC002F9627 /* DojoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DojoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCBB59D51EC347CC002F9627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCBB59DA1EC347CC002F9627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -118,48 +116,54 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		DC38EB511EC34BAD001E0C05 /* Controllers */ = {
+		DC38EB6E1EC364F1001E0C05 /* API */ = {
 			isa = PBXGroup;
 			children = (
-				DC38EB561EC34BDA001E0C05 /* ViewController.swift */,
-				DC38EB621EC350CF001E0C05 /* GenericViewController.swift */,
-			);
-			path = Controllers;
-			sourceTree = "<group>";
-		};
-		DC38EB521EC34BAD001E0C05 /* DAO */ = {
-			isa = PBXGroup;
-			children = (
-				DC38EB6A1EC354EA001E0C05 /* GameRepository.swift */,
-				DC38EB6C1EC35731001E0C05 /* GameDAO.swift */,
-			);
-			path = DAO;
-			sourceTree = "<group>";
-		};
-		DC38EB531EC34BAD001E0C05 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				DC38EB661EC35408001E0C05 /* GameResponse.swift */,
-				DC38EB681EC35434001E0C05 /* Game.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		DC38EB541EC34BAD001E0C05 /* API */ = {
-			isa = PBXGroup;
-			children = (
-				DC38EB581EC34C15001E0C05 /* GameRouter.swift */,
+				DC38EB6F1EC364F1001E0C05 /* GameRouter.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
 		};
-		DC38EB551EC34BAD001E0C05 /* Helpers */ = {
+		DC38EB701EC364F1001E0C05 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				DC38EB601EC34F12001E0C05 /* DatabaseManager.swift */,
-				DC38EB641EC3519B001E0C05 /* NetworkManager.swift */,
+				DC38EB711EC364F1001E0C05 /* GameViewController.swift */,
+				DC38EB721EC364F1001E0C05 /* GenericViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		DC38EB731EC364F1001E0C05 /* DAO */ = {
+			isa = PBXGroup;
+			children = (
+				DC38EB741EC364F1001E0C05 /* GameDAO.swift */,
+			);
+			path = DAO;
+			sourceTree = "<group>";
+		};
+		DC38EB751EC364F1001E0C05 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				DC38EB761EC364F1001E0C05 /* NetworkManager.swift */,
 			);
 			path = Helpers;
+			sourceTree = "<group>";
+		};
+		DC38EB771EC364F1001E0C05 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC38EB781EC364F1001E0C05 /* Game.swift */,
+				DC38EB791EC364F1001E0C05 /* GameResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		DC38EB7A1EC364F1001E0C05 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				DC38EB7B1EC364F1001E0C05 /* GameRepository.swift */,
+			);
+			path = Repositories;
 			sourceTree = "<group>";
 		};
 		DCBB59C91EC347CC002F9627 = {
@@ -187,11 +191,12 @@
 			children = (
 				DCBB59D51EC347CC002F9627 /* AppDelegate.swift */,
 				DCBB59D91EC347CC002F9627 /* Main.storyboard */,
-				DC38EB511EC34BAD001E0C05 /* Controllers */,
-				DC38EB521EC34BAD001E0C05 /* DAO */,
-				DC38EB531EC34BAD001E0C05 /* Models */,
-				DC38EB541EC34BAD001E0C05 /* API */,
-				DC38EB551EC34BAD001E0C05 /* Helpers */,
+				DC38EB6E1EC364F1001E0C05 /* API */,
+				DC38EB701EC364F1001E0C05 /* Controllers */,
+				DC38EB731EC364F1001E0C05 /* DAO */,
+				DC38EB751EC364F1001E0C05 /* Helpers */,
+				DC38EB771EC364F1001E0C05 /* Models */,
+				DC38EB7A1EC364F1001E0C05 /* Repositories */,
 				DC38EB501EC34B71001E0C05 /* Supporting Files */,
 			);
 			path = DojoSwift;
@@ -408,18 +413,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC38EB651EC3519B001E0C05 /* NetworkManager.swift in Sources */,
-				DC38EB571EC34BDA001E0C05 /* ViewController.swift in Sources */,
-				DC38EB631EC350CF001E0C05 /* GenericViewController.swift in Sources */,
-				DC38EB591EC34C15001E0C05 /* GameRouter.swift in Sources */,
+				DC38EB7E1EC364F1001E0C05 /* GenericViewController.swift in Sources */,
+				DC38EB811EC364F1001E0C05 /* Game.swift in Sources */,
+				DC38EB7D1EC364F1001E0C05 /* GameViewController.swift in Sources */,
 				DC38EB5D1EC34C68001E0C05 /* Enviroment.swift in Sources */,
-				DC38EB6B1EC354EA001E0C05 /* GameRepository.swift in Sources */,
-				DC38EB6D1EC35731001E0C05 /* GameDAO.swift in Sources */,
-				DC38EB691EC35434001E0C05 /* Game.swift in Sources */,
 				DCBB59D61EC347CC002F9627 /* AppDelegate.swift in Sources */,
+				DC38EB831EC364F1001E0C05 /* GameRepository.swift in Sources */,
+				DC38EB801EC364F1001E0C05 /* NetworkManager.swift in Sources */,
+				DC38EB7F1EC364F1001E0C05 /* GameDAO.swift in Sources */,
+				DC38EB7C1EC364F1001E0C05 /* GameRouter.swift in Sources */,
+				DC38EB821EC364F1001E0C05 /* GameResponse.swift in Sources */,
 				DC38EB5B1EC34C4A001E0C05 /* Constants.swift in Sources */,
-				DC38EB671EC35408001E0C05 /* GameResponse.swift in Sources */,
-				DC38EB611EC34F12001E0C05 /* DatabaseManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,7 +11,7 @@ import Alamofire
 import Kingfisher
 import ObjectMapper
 
-class ViewController: GenericViewController {
+class GameViewController: GenericViewController {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -142,7 +142,7 @@ class ViewController: GenericViewController {
 
 }
 
-extension ViewController : UITableViewDataSource {
+extension GameViewController : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         
@@ -180,7 +180,7 @@ extension ViewController : UITableViewDataSource {
     }
 }
 
-extension ViewController : UITableViewDelegate {
+extension GameViewController : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 80

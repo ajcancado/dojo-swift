@@ -23,5 +23,19 @@ class GameRepository: Object {
 //    override static func ignoredProperties() -> [String] {
 //      return []
 //    }
+
+    func toGame() -> Game{
+        
+        let game = Game()
+        
+        game.name = self.name
+        game.box = self.box
+        game.logo = self.logo
+        game.viewers = self.viewers
+        game.channels = self.channels
+        
+        return game
+    }
     
 }
+

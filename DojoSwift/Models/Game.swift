@@ -53,5 +53,16 @@ class Game: Mappable {
         
     }
     
-    
+    func toGameRepository() -> GameRepository {
+        
+        let gameRepository = GameRepository()
+        
+        gameRepository.name = self.name
+        gameRepository.box = self.box
+        gameRepository.logo = self.logo
+        gameRepository.viewers = self.viewers
+        gameRepository.channels = self.channels
+        
+        return gameRepository
+    }
 }

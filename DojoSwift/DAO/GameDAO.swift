@@ -23,16 +23,8 @@ class GameDAO: NSObject {
     
     func saveGame(game: Game){
         
-        let gameRepository = GameRepository()
-        
-        gameRepository.name = game.name
-        gameRepository.box = game.box
-        gameRepository.logo = game.logo
-        gameRepository.viewers = game.viewers
-        gameRepository.channels = game.channels
-        
         try! realm.write {
-            realm.add(gameRepository)
+            realm.add(game.toGameRepository())
         }
     }
     
@@ -41,7 +33,6 @@ class GameDAO: NSObject {
         try! realm.write {
             realm.deleteAll()
         }
-        
     }
     
     func getAll() -> [Game] {
@@ -52,17 +43,9 @@ class GameDAO: NSObject {
         
         for gameRepository in gamesRespositories {
             
-            let game = Game()
-            
-            game.name = gameRepository.name
-            game.box = gameRepository.box
-            game.logo = gameRepository.logo
-            game.viewers = gameRepository.viewers
-            game.channels = gameRepository.channels
-            
-            games.append(game)
-            
+            games.append(gameRepository.toGame())
         }
+        
         return games
     }
 
