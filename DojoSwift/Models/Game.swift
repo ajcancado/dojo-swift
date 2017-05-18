@@ -9,15 +9,16 @@
 import UIKit
 import ObjectMapper
 
-class Game: Mappable {
+struct Game {
     
-    var username: String?
-    var age: Int?
+    var name: String?
+    /*var channels: String?
+    var viewers: Int?
     var weight: Double!
     var array: [AnyObject]?
     var dictionary: [String : AnyObject] = [:]
-    var bestFriend: User?                       // Nested User object
-    var friends: [User]?                        // Array of Users
+//    var bestFriend: User?                       // Nested User object
+//    var friends: [User]?                        // Array of Users
     var birthday: Date?
     
     required init?(map: Map) {
@@ -34,5 +35,5 @@ class Game: Mappable {
     bestFriend  <- map["best_friend"]
     friends     <- map["friends"]
     birthday    <- (map["birthday"], DateTransform())
-    }
+    }*/
 }
